@@ -1,0 +1,1 @@
+avrdude -v -v -p atmega328p -c arduino -P /dev/ttyUSB0  -b 57600 -Uflash:w:freertos.hex:i
